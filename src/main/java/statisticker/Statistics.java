@@ -13,6 +13,7 @@ public class Statistics
     
     public static Stats getStatistics(List<Float> numbers) {
         //implement the computation of statistics here
+        
         Statistics.Stats s = new Stats();
         if(numbers.isEmpty())
         {
