@@ -12,16 +12,16 @@ public class Statistics
     }
     
     public static Stats getStatistics(List<Float> numbers) {
-        //implement the computation of statistics here
         
         Statistics.Stats s = new Stats();
+        
         if(numbers.isEmpty())
         {
             return(s);
         }
         Float sum = 0f;
-        s.min=Collections.min(numbers);
-        s.max=Collections.max(numbers);
+        s.min = Collections.min(numbers);
+        s.max = Collections.max(numbers);
         for(Float n:numbers)
         {
             sum=+n;
