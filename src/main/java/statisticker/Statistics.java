@@ -24,7 +24,7 @@ public class Statistics
         s.max = Collections.max(numbers);
         for(Float n:numbers)
         {
-            sum=+n;
+            sum+=n;
         }    
         s.average = sum/(numbers.size());
         return(s);
